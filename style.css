@@ -1,0 +1,61 @@
+*{
+ border: 1px solid gray;
+ margin: 0;   
+ padding: 0;
+ box-sizing: border-box;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+div.grid{
+    height: 80%;
+    width: 80%;
+    align-self: center;
+}
+div.grid div{
+    box-sizing: border-box;
+    height: 12.5%;
+    width: 12.5%;
+    background-color: white;;
+}
+div.grid div:hover{
+    background-color: gray;
+}
+
+.sketch{
+    display: flex;
+    justify-content: space-around;
+    height: 1000px;
+    width: 1000px;
+    margin: auto;
+    
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    flex-basis: 30%;
+}
+
+.menu button{
+    flex-basis: 100px;
+    width: 200px;
+    font-size: large;
+}
+
+.sottomenu{
+    font-size:25px
+}
+
+input{
+    height: 50px;
+    padding: 20px;
+    font-size: large;
+}
